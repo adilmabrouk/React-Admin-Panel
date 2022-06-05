@@ -8,7 +8,7 @@ import './layout.css'
 const Layout = () => {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename="/React-Admin-Panel/">
                 <Route render={(props) => (
                     <div className='layout'>
                         <Sidebar {...props} />
