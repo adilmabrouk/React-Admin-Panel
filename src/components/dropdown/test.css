@@ -1,0 +1,30 @@
+.dropdown__toggle>button {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    position: relative;
+}
+
+i {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 10px;
+
+}
+
+.badge {
+    background-color: var(--main-color);
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.dropdown__content {
+    position: absolute;
+    right: 0;
+    top: 55px;
+    width: max-content;
+    background: antiquewhite;
+    padding: 10px;
+}
