@@ -16,8 +16,6 @@ const Topnav = () => {
 
     //create an array of users
 
-
-
     console.log(notification);
     return (
         <div className='topnav'>
