@@ -75,17 +75,19 @@
 .card__customers {
     background-color: var(--main-bg);
     border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
     padding: 20px;
 }
 
 .card__header {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .card__footer {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .card__footer:hover {
